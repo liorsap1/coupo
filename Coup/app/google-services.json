@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "952644761299",
+    "firebase_url": "https://coup-3548c.firebaseio.com",
+    "project_id": "coup-3548c",
+    "storage_bucket": "coup-3548c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:952644761299:android:af698a51a80abb8d",
+        "android_client_info": {
+          "package_name": "com.example.and.coup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "952644761299-b3cmcvpetfc3nub14c5nvobh1ds77naa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.and.coup",
+            "certificate_hash": "7ea79bf862eb629db4a3a5aa614ca5dd602da9b3"
+          }
+        },
+        {
+          "client_id": "952644761299-rsk7oks9iqieq3fu2m8783s2lssfihko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA25g09iuOOo0vHqzWjg8bHZyAoAlJes48"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "952644761299-rsk7oks9iqieq3fu2m8783s2lssfihko.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
