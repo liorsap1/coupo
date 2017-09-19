@@ -13,8 +13,8 @@ This Generic class will handle the retrive and update data from any generic data
 public class DatabsaeUtill {
 
     // Write a message to the database
-    public static FirebaseDatabase database = FirebaseDatabase.getInstance(){}
-    public static DatabaseReference ref = database.getReference(){}
+    public static FirebaseDatabase database = FirebaseDatabase.getInstance();
+    public static DatabaseReference ref = database.getReference();
     public void WriteTo_Database(String id){}
-    public Object ReadFrom_Database(){}
+    public void ReadFrom_Database(){}
 }
