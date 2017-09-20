@@ -12,6 +12,18 @@ public class Coupon {
     double price;
     int discount;
 
+    public Coupon(String id,
+                  String productName,
+                  String endDate,
+                  double price,
+                  int discount) {
+        this.id=id;
+        this.productName=productName;
+        this.endDate=endDate;
+        this.price=price;
+        this.discount=discount;
+    }
+
     public String getId() {
         return id;
     }

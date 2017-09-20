@@ -36,7 +36,7 @@ public class NewCouponActivity extends AppCompatActivity {
         String endDate = couponDate.getText().toString();
         String discount = ""+couponDiscount.getValue();
         String priceBefore = couponProductPrice.getText().toString();
-        String priceAfter = ""+;
-
+        String priceAfter = ""+Double.parseDouble(couponProductPrice.getText().toString())*(100/couponDiscount.getValue());
+        return new Coupon(id,productName,endDate,Double.parseDouble(priceAfter),Integer.parseInt(discount));
     }
 }
