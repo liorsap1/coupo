@@ -27,47 +27,36 @@ public class Coupon {
     public String getId() {
         return id;
     }
-
     public void setId(String id) {
         this.id = id;
     }
-
     public String getProductName() {
         return productName;
     }
-
     public void setProductName(String productName) {
         this.productName = productName;
     }
-
     public String getStartDate() {
         return startDate;
     }
-
     public void setStartDate(String startDate) {
         this.startDate = startDate;
     }
-
     public String getEndDate() {
         return endDate;
     }
-
     public void setEndDate(String endDate) {
         this.endDate = endDate;
     }
-
     public double getPrice() {
         return price;
     }
-
     public void setPrice(double price) {
         this.price = price;
     }
-
     public int getDiscount() {
         return discount;
     }
-
     public void setDiscount(int discount) {
         this.discount = discount;
     }

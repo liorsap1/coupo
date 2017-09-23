@@ -9,14 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ShopActivity">
+        <activity android:name=".NewShopActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".NewCouponActivity"></activity>
+        <activity android:name=".NewCouponActivity" />
+        <activity android:name=".ManagerActivity"></activity>
     </application>
 
 </manifest>

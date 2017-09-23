@@ -1,7 +1,9 @@
 package com.example.and.coup;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.NumberPicker;
@@ -27,8 +29,26 @@ public class NewCouponActivity extends AppCompatActivity {
         couponDate = (EditText)findViewById(R.id.coupon_date);
         submit = (Button) findViewById(R.id.coupon_submit);
         cancel = (Button) findViewById(R.id.coupon_cancel);
-    }
 
+        submit.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                DatabsaeUtill.writeToDatabase_coupon(createCoupon());
+                Intent intent = new Intent(getApplicationContext(),ManagerActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        cancel.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
+
+
+    }
 
     private Coupon createCoupon(){
         String id = couponId.getText().toString();
@@ -38,5 +58,11 @@ public class NewCouponActivity extends AppCompatActivity {
         String priceBefore = couponProductPrice.getText().toString();
         String priceAfter = ""+Double.parseDouble(couponProductPrice.getText().toString())*(100/couponDiscount.getValue());
         return new Coupon(id,productName,endDate,Double.parseDouble(priceAfter),Integer.parseInt(discount));
+    }
+    private View validateDetails(){
+//        couponId.getText().toString();
+//        couponName.getText().toString();
+//        couponDate.getText().toString();
+        return null;
     }
 }

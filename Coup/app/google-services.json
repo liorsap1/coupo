@@ -49,6 +49,50 @@
           "status": 2
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:952644761299:android:f3f409f5589d2b2c",
+        "android_client_info": {
+          "package_name": "com.example.lior.coupo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "952644761299-08j31b44sshteggq2b14b6a85vut35ir.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lior.coupo",
+            "certificate_hash": "ef07a2d90d56d122d62f458834490861b22ea322"
+          }
+        },
+        {
+          "client_id": "952644761299-rsk7oks9iqieq3fu2m8783s2lssfihko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA25g09iuOOo0vHqzWjg8bHZyAoAlJes48"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "952644761299-rsk7oks9iqieq3fu2m8783s2lssfihko.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
     }
   ],
   "configuration_version": "1"
