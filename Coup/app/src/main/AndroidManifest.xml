@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.and.coup">
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -17,7 +19,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".NewCouponActivity" />
-        <activity android:name=".ManagerActivity"></activity>
+        <activity android:name=".ManagerActivity" />
+        <activity android:name=".ClientActivity"></activity>
     </application>
 
 </manifest>
