@@ -47,7 +47,6 @@ public class NewCouponActivity extends AppCompatActivity {
             }
         });
 
-
     }
 
     private Coupon createCoupon(){
@@ -57,7 +56,7 @@ public class NewCouponActivity extends AppCompatActivity {
         String discount = ""+couponDiscount.getValue();
         String priceBefore = couponProductPrice.getText().toString();
         String priceAfter = ""+Double.parseDouble(couponProductPrice.getText().toString())*(100/couponDiscount.getValue());
-        return new Coupon(id,productName,endDate,Double.parseDouble(priceAfter),Integer.parseInt(discount));
+        return new Coupon(id,productName,endDate,priceAfter,discount);
     }
     private View validateDetails(){
 //        couponId.getText().toString();

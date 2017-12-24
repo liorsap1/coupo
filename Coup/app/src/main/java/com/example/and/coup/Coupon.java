@@ -9,14 +9,14 @@ public class Coupon {
     String productName;
     String startDate;
     String endDate;
-    double price;
-    int discount;
+    String price;
+    String discount;
 
     public Coupon(String id,
                   String productName,
                   String endDate,
-                  double price,
-                  int discount) {
+                  String price,
+                  String discount) {
         this.id=id;
         this.productName=productName;
         this.endDate=endDate;
@@ -48,16 +48,16 @@ public class Coupon {
     public void setEndDate(String endDate) {
         this.endDate = endDate;
     }
-    public double getPrice() {
+    public String getPrice() {
         return price;
     }
-    public void setPrice(double price) {
+    public void setPrice(String price) {
         this.price = price;
     }
-    public int getDiscount() {
+    public String getDiscount() {
         return discount;
     }
-    public void setDiscount(int discount) {
+    public void setDiscount(String discount) {
         this.discount = discount;
     }
 }

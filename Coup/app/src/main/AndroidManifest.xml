@@ -2,7 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.and.coup">
 
+<<<<<<< HEAD
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+=======
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+>>>>>>> dd2d7d6ede63b1a6360c029725b2e9d14cfc8fdf
 
     <application
         android:allowBackup="true"
@@ -21,10 +25,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
 
         <service
             android:name=".GeofenceTransitionsIntentService"
             android:exported="false"></service>
+=======
+        <activity android:name=".NewCouponActivity" />
+        <activity android:name=".ManagerActivity" />
+        <activity android:name=".ClientActivity"></activity>
+>>>>>>> dd2d7d6ede63b1a6360c029725b2e9d14cfc8fdf
     </application>
 
 </manifest>
